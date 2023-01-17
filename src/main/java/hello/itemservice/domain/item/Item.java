@@ -11,6 +11,9 @@ public class Item {
     private Integer price; // null인 경우도 있기 때문에 Integer 사용
     private Integer quantity; // null인 경우도 있기 때문에 Integer 사용
 
+    public Item() {
+    }
+
     public Item(String itemName, Integer price, Integer quantity) {
         this.itemName = itemName;
         this.price = price;
